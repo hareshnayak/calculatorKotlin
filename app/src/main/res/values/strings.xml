@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DeveloperDays</string>
+    <string name="editName">Enter your name</string>
+    <string name="hello_world">Hello world</string>
+    <string name="display">Display</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">x</string>
+    <string name="divide">/</string>
+    <string name="number_1">Number 1</string>
+    <string name="number_2">Number 2</string>
+    <string name="result">Result</string>
+</resources>

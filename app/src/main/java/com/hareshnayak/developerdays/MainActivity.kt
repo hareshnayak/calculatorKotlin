@@ -1,10 +1,11 @@
 package com.hareshnayak.developerdays
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,11 +21,11 @@ class MainActivity : AppCompatActivity() {
         val num1 : EditText = findViewById(R.id.num1)
         val num2 : EditText = findViewById(R.id.num2)
 
-        var ans : TextView = findViewById(R.id.answer)
-        var op : TextView = findViewById(R.id.operator)
+        val ans : TextView = findViewById(R.id.answer)
+        val op : TextView = findViewById(R.id.operator)
 
         add.setOnClickListener{
-            op.text = "-"
+            op.text = "+"
             ans.text = (num1.text.toString().toFloat() + num2.text.toString().toFloat()).toString()
         }
         sub.setOnClickListener{
